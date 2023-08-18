@@ -87,11 +87,6 @@ def has_random_digit_sequence(number):
             return True
     return False
 
-def is_valid_mobile_number(number):
-    if len(number) == 10:
-        return True
-    else:
-        return False
 
 def main():
     sl.title("Spam Call Verification")
@@ -99,7 +94,7 @@ def main():
 
     if sl.button('Verify'):
         if number:
-            if is_genuine_number(number) and not has_unusual_area_code(number) and not has_repeating_digits(number) and not is_valid_mobile_number and not has_random_digit_sequence(number):
+            if is_genuine_number(number) and not has_unusual_area_code(number) and not has_repeating_digits(number)  and not has_random_digit_sequence(number):
                 sl.success("The Mobile Number is Genuine ✅")
             else:
                 sl.error("The Mobile Number is Spam 🚨")
