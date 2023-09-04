@@ -144,6 +144,13 @@ input:checked + .slider:before {
         </label>
     </div>
     <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
+        <h3>VPN</h3>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
         <h3>Obscence Blocker</h3>
         <label class="switch">
             <input type="checkbox">
@@ -151,7 +158,14 @@ input:checked + .slider:before {
         </label>
     </div>
     <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
-        <h3>VPN</h3>
+        <h3>Privacy Mode</h3>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
+        <h3>Secure Camera & Microphone access</h3>
         <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
