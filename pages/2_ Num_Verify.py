@@ -100,80 +100,80 @@ sl.markdown(f"<h1 style='text-align: center;color:rgb(50,121,123);'>{title}</h1>
 
 import requests
 def is_genuine_number(number):
-    # url = f"https://truecaller-data1.p.rapidapi.com/rapid_api/truecaller/{number}"
+    url = f"https://truecaller-data1.p.rapidapi.com/rapid_api/truecaller/{number}"
 
-    # headers = {
-    #     "X-RapidAPI-Key": "fcdf6023f9mshc7cf048dfe8bfe4p1432adjsn1633aeb1bf4e", #fcdf6023f9mshc7cf048dfe8bfe4p1432adjsn1633aeb1bf4e
-    #     "X-RapidAPI-Host": "truecaller-data1.p.rapidapi.com"
-    # }
-
-    # response = requests.get(url, headers=headers)
-
-    response = {
-        "success": True,
-        "data": [
-            {
-            "id": "jWAp5q77Jk/eN5OIwkiZ7g==",
-            "name": "Dedi Suwandi Yagami",
-            "imId": "1i9tibozg36kg",
-            "gender": "UNKNOWN",
-            "about": "",
-            "jobTitle": "",
-            "score": 0.9,
-            "access": "PUBLIC",
-            "enhanced": True,
-            "companyName": "",
-            "phones": [
-                {
-                "e164Format": "+6281223222224",
-                "numberType": "MOBILE",
-                "nationalFormat": "0812-2322-2224",
-                "dialingCode": 62,
-                "countryCode": "ID",
-                "carrier": "Telkomsel",
-                "type": "openPhone"
-                }
-            ],
-            "addresses": [
-                {
-                "address": "ID",
-                "street": "",
-                "zipCode": "",
-                "countryCode": "ID",
-                "timeZone": "+07:00",
-                "type": "address"
-                }
-            ],
-            "internetAddresses": [],
-            "badges": [
-                "premium",
-                "user"
-            ],
-            "tags": [],
-            "cacheTtl": 1296000000,
-            "sources": [],
-            "searchWarnings": [],
-            "surveys": [
-                {
-                "id": "0905a705-3c8c-48ab-a4a6-001ce0b20566",
-                "frequency": 86400,
-                "passthroughData": "eyAiMyI6ICI2MjgxMjIzMjIyMjI0IiwgIjIiOiAiRGVkaSBTdXdhbmRpIFlhZ2FtaSIsICI0IjogInBmIiB9",
-                "perNumberCooldown": 31536000
-                },
-                {
-                "id": "4eb9afcf-f36e-430d-86f9-4f72ca091f91",
-                "frequency": 86400,
-                "passthroughData": "eyAiMyI6ICI2MjgxMjIzMjIyMjI0IiwgIjIiOiAiRGVkaSBTdXdhbmRpIFlhZ2FtaSIsICI0IjogInBmIiB9",
-                "perNumberCooldown": 31536000
-                }
-            ],
-            "commentsStats": {
-                "showComments": False
-            },
-            "ns": 0
-            }
-        ]
+    headers = {
+        "X-RapidAPI-Key": "fcdf6023f9mshc7cf048dfe8bfe4p1432adjsn1633aeb1bf4e", #fcdf6023f9mshc7cf048dfe8bfe4p1432adjsn1633aeb1bf4e
+        "X-RapidAPI-Host": "truecaller-data1.p.rapidapi.com"
     }
+
+    response = requests.get(url, headers=headers)
+
+    # response = {
+    #     "success": True,
+    #     "data": [
+    #         {
+    #         "id": "jWAp5q77Jk/eN5OIwkiZ7g==",
+    #         "name": "Dedi Suwandi Yagami",
+    #         "imId": "1i9tibozg36kg",
+    #         "gender": "UNKNOWN",
+    #         "about": "",
+    #         "jobTitle": "",
+    #         "score": 0.9,
+    #         "access": "PUBLIC",
+    #         "enhanced": True,
+    #         "companyName": "",
+    #         "phones": [
+    #             {
+    #             "e164Format": "+6281223222224",
+    #             "numberType": "MOBILE",
+    #             "nationalFormat": "0812-2322-2224",
+    #             "dialingCode": 62,
+    #             "countryCode": "ID",
+    #             "carrier": "Telkomsel",
+    #             "type": "openPhone"
+    #             }
+    #         ],
+    #         "addresses": [
+    #             {
+    #             "address": "ID",
+    #             "street": "",
+    #             "zipCode": "",
+    #             "countryCode": "ID",
+    #             "timeZone": "+07:00",
+    #             "type": "address"
+    #             }
+    #         ],
+    #         "internetAddresses": [],
+    #         "badges": [
+    #             "premium",
+    #             "user"
+    #         ],
+    #         "tags": [],
+    #         "cacheTtl": 1296000000,
+    #         "sources": [],
+    #         "searchWarnings": [],
+    #         "surveys": [
+    #             {
+    #             "id": "0905a705-3c8c-48ab-a4a6-001ce0b20566",
+    #             "frequency": 86400,
+    #             "passthroughData": "eyAiMyI6ICI2MjgxMjIzMjIyMjI0IiwgIjIiOiAiRGVkaSBTdXdhbmRpIFlhZ2FtaSIsICI0IjogInBmIiB9",
+    #             "perNumberCooldown": 31536000
+    #             },
+    #             {
+    #             "id": "4eb9afcf-f36e-430d-86f9-4f72ca091f91",
+    #             "frequency": 86400,
+    #             "passthroughData": "eyAiMyI6ICI2MjgxMjIzMjIyMjI0IiwgIjIiOiAiRGVkaSBTdXdhbmRpIFlhZ2FtaSIsICI0IjogInBmIiB9",
+    #             "perNumberCooldown": 31536000
+    #             }
+    #         ],
+    #         "commentsStats": {
+    #             "showComments": False
+    #         },
+    #         "ns": 0
+    #         }
+    #     ]
+    # }
     # if response['success']:
     #     #sl.write(response['data'])
     return response
