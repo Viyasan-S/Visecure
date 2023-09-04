@@ -150,6 +150,13 @@ input:checked + .slider:before {
             <span class="slider round"></span>
         </label>
     </div>
+    <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
+        <h3>VPN</h3>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
 </div>
 
 """,
