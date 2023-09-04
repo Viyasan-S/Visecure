@@ -14,3 +14,5 @@ googlesearch-python
 whois
 nltk
 soundfile
+vt-py
+streamlit-option-menu
