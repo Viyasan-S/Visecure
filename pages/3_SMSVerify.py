@@ -31,15 +31,15 @@ def predict_spam(sample_message):
     return classifier.predict(temp)
 
 def main():
-    st.title("Spam SMS Detection")
+    st.title(":blue[Spam] SMS Detection")
 
     message = st.text_area("Enter a message:")
     if st.button("Analyse"):
         if not message == "":
             if predict_spam(message):
-                st.write("Predicted Result: Spam 🚨")
+                st.error("Predicted Result: Spam 🚨")
             else:
-                st.write("Predicted Result: Not Spam✅")
+                st.success("Predicted Result: Not Spam✅")
         else:
             st.write("Please enter a message")
 

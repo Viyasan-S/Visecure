@@ -47,13 +47,24 @@ style = """
     border : 1px solid;
     border-radius: 10px 10px 10px 10px;
     transition: 0.5s ease-in-out;
+}
+.streamlit-expanderHeader:hover{
+    color: rgb(96, 180, 255);
+}
+.css-1fcdlhc .streamlit-expanderHeader:hover svg{
+    fill:rgb(96, 180, 255);
+}
+.st-ck:hover,.st-ck:focus{
+    border: rgb(96, 180, 255);
+}
+
 </style>
 """
 
 sl.markdown(f"{style}",unsafe_allow_html=True)
 
 
-title = 'Phishing Page Detection (Visecure)'
+title = 'Phishing Detection <span style="color:rgb(50,121,123)">(Visecure)</span>'
 
 sl.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
 
@@ -224,7 +235,7 @@ if url != "":
             
 
 with sl.expander("About"):
-    sl.header("Description :")
+    sl.header(":blue[Description :]")
     sl.write("""
     Team Name - Startup Pro - [ Team Head - Viyasan S ( CEO ) ]
 1. S. Viyasan - Project Manager and Lead Developer: responsible for leading the project and managing the team's workflow, setting timelines and goals, and overseeing the development of the phishing page detection system.\n

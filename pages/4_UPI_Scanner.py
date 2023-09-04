@@ -26,7 +26,7 @@ def is_good_upi_id(upi_id):
 
 
 def upi_id_scanner():
-    st.title("UPI ID Scanner")
+    st.title(":blue[UPI ID] Scanner")
 
     upi_id = st.text_input("Enter UPI ID:")
     if st.button("Scan"):
