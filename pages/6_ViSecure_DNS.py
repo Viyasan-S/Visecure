@@ -121,7 +121,7 @@ input:checked + .slider:before {
                 </label>
             </div></li>
             <li><div style="width:100%;padding:10px;display:flex;justify-content:space-between">
-                <h3>UI ID</h3>
+                <h3>UPI ID</h3>
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider round"></span>
