@@ -1,7 +1,7 @@
 import streamlit as st 
 
 
-st.title(":blue[Visecure] DNS")
+st.title(":blue[Visecure] APP & DNS")
 
 st.markdown("""
 <style>
