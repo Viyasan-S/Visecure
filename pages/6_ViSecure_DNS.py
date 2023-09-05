@@ -90,7 +90,7 @@ input:checked + .slider:before {
         </label>
     </div>
     <div style="width:100%;padding:10px;display:flex;justify-content:space-between">
-        <h3>Devive Security & File Scan</h3>
+        <h3>Device Security & File Scan</h3>
         <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
