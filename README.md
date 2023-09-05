@@ -1,3 +1,3 @@
-# phishing_detection_streamlit
+# Visecure(Virtual Security Application)
 
-live app : https://visecure-phishing-detection-22cjbr.streamlit.app/
+live app : https://visecure-startup-pro.streamlit.app/
