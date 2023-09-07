@@ -1,3 +1,3 @@
 # Visecure(Virtual Security Application)
 
-live app : https://visecure-startup-pro.streamlit.app/
+live app : https://visecure-startup-pro-viyasanco.streamlit.app/
