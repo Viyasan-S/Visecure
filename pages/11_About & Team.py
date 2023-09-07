@@ -19,6 +19,8 @@ with st.sidebar:
     )
 
 if selected == 'Project':
+    c1,c2,c3 = st.columns([4,1,5])
+    c2.image("logo.png",width=250)
     st.write("""
 ## Product Perspective:
  Visecure is a comprehensive mobile application designed to empower users with cutting-edge security and privacy features, ensuring their digital well-being in an increasingly connected world. 
@@ -59,7 +61,9 @@ if selected == 'Team':
             </style>
         """
     st.markdown(f"{sty}",unsafe_allow_html=True)
-    st.title("Team Details")
+    c11,c22 = st.columns([4,1])
+    c11.title("Team Details")
+    c22.image("startup.jpg",width=150)
     st.header("Team Description :")
     st.write("""
           
