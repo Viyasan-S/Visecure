@@ -251,4 +251,5 @@ with sl.expander("About"):
     sl.write("###")
     sl.write("###")
     
-
+c31,c11,c12 = sl.columns([3,1,5])
+c11.image("logo.png", width=200)
