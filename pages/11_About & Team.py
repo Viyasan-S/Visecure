@@ -75,6 +75,7 @@ Our mission at Visecure is to empower every digital citizen with the tools and k
     st.subheader("Team members : ")
     st.write("""
          * [Viyasan S - ( Team Leader )](https://www.linkedin.com/in/viyasan-sivaraj-12b14b1a4/)
-         * [Shabari K S](https://www.linkedin.com/in/shabari-k-s-56421822a) 
-         * [Sathyaram R](https://www.linkedin.com/in/sathyaram-r-592b66227)
+         * [Swathi V] - ( AI/ML Engineer)](https://www.linkedin.com/in/swathi-v-696329230/)
+         * [Vishnu Balan O] - ( UI/UX Designer)](https://www.linkedin.com/in/vishnu-into-ux-66014424b/)
+         * [Abilash Kumar R] - ( BLockchain Expert)](https://www.linkedin.com/in/abilash-kumar-r-3196a0268/)
     """)
