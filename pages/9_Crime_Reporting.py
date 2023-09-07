@@ -23,6 +23,7 @@ if selected == "Emergency Button":
     .btn-frame{
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         height: 68vh;
     }
@@ -43,10 +44,26 @@ if selected == "Emergency Button":
         shadow: 0 0 10px red;
         transform : scale(1.1);
     }
+    #message{
+        display: none;
+        font-size: 30px;
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 60px;
+    }
+    .btn-frame:focus-within #message {
+            display: block;
+    }
     </style>
     <div class="btn-frame">
-        <div  style='text-align: center;'>
-        <button class="btn">Emergency SOS</button>
+        <div style='text-align: center;'>
+            <button class="btn">Emergency SOS</button>
+        </div>
+        <div id="message" style="text-align: center;">
+            Your Location is share to the police and notified them about the emergency
         </div>
     </div>
     """,unsafe_allow_html=True)
