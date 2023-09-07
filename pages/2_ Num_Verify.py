@@ -180,7 +180,7 @@ with sl.expander("About"):
     sl.header(":blue[Description :]")
     sl.write("""
   Team Name - Startup Pro - [ Team Head - Viyasan S ( CEO ) ]
-1. S. Viyasan - Project Manager and Lead Developer: responsible for leading the project and managing the team's workflow, setting timelines and goals, and overseeing the development of the phishing page detection system.\n
+1. S. Viyasan - Project Manager and Lead Developer: responsible for leading the project and managing the team's workflow, setting timelines and goals, and overseeing the development of the Visecure Application.\n
 2. V. Swathi - Data Scientist and Machine Learning Expert: responsible for designing and implementing the machine learning algorithms that will be used to detect phishing pages, as well as analyzing data and making recommendations for improving the system.\n
 3. O. Vishnubalan - Front-end Developer and UI/UX Designer: responsible for designing and implementing the user interface for the phishing page detection system, making it intuitive and user-friendly.\n
 4. R. Abilash Kumar - Back-end Developer and Blockchain Expert: responsible for designing and implementing the back-end infrastructure for the system, including the database and server-side functionality.\n
