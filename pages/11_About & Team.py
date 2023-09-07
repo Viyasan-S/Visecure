@@ -62,9 +62,13 @@ if selected == 'Team':
     st.title("Team Details")
     st.header("Team Description :")
     st.write("""
-         *Vision:
+          Vision:
 
 At Visecure, we envision a digital world where individuals and businesses can thrive without fear, where privacy and security are not luxuries but fundamental rights. Our vision is to lead the charge in revolutionizing digital security, creating a safer, more secure, and interconnected global community.
+
+          Mission:
+
+Our mission at Visecure is to empower every digital citizen with the tools and knowledge to protect their online identity and assets. We are on a relentless quest to build and advance innovative security solutions that are accessible, user-friendly, and effective. Our aim is to make the digital landscape a secure and inclusive space for all.
 """)
 
     st.subheader("Team members : ")
