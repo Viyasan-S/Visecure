@@ -236,9 +236,8 @@ if url != "":
             
 
 with sl.expander("About"):
-    c1,c2 = sl.columns([1,1])
+    c3,c1,c2 = sl.columns([3,1,5])
     c1.image("logo.png", width=200)
-    c2.image("startup.jpg", width=200)
     sl.write("###")
     sl.header(":blue[Description :]")
     sl.write("""
