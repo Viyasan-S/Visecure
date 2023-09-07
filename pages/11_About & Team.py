@@ -21,9 +21,8 @@ with st.sidebar:
 if selected == 'Project':
     st.write("""
 ## Product Perspective:
- * Our product is a prediction web app that uses machine learning algorithms to predict a student's final semester marks based on their internal marks and other relevant factors. \n
- * It will be designed to provide accurate and reliable predictions to students, teachers, and institutions. \n
- * It will be user-friendly and easy to navigate, with clear and concise instructions.\n
+ Visecure is a comprehensive mobile application designed to empower users with cutting-edge security and privacy features, ensuring their digital well-being in an increasingly connected world. 
+ It combines state-of-the-art technologies and a user-friendly interface to provide a one-stop solution for all their security needs.
 ## Product Features:
 
  * Student page for entering internal marks and other details\n
