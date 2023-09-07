@@ -62,11 +62,9 @@ if selected == 'Team':
     st.title("Team Details")
     st.header("Team Description :")
     st.write("""
-         * Welcome to Cipher! We are a dynamic team of visionary professionals determined to address the challenge of predicting student grades accurately. 
-         * Our mission is straightforward to develop a system that provides students with reliable grade predictions to make informed decisions about their future career options.
-         * Our team comprises experts from diverse fields, who will utilize data analysis techniques and creative approaches to devise innovative solutions. 
-         * We value collaboration and encourage brainstorming of ideas from all team members, regardless of size or scope. 
-         * Together, we can create something truly extraordinary! Let us work harmoniously towards achieving tangible results. It's time for Cipher to shine!
+         *Vision:
+
+At Visecure, we envision a digital world where individuals and businesses can thrive without fear, where privacy and security are not luxuries but fundamental rights. Our vision is to lead the charge in revolutionizing digital security, creating a safer, more secure, and interconnected global community.
 """)
 
     st.subheader("Team members : ")
