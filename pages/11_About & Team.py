@@ -25,25 +25,28 @@ if selected == 'Project':
  It combines state-of-the-art technologies and a user-friendly interface to provide a one-stop solution for all their security needs.
 ## Product Features:
 
- * Student page for entering internal marks and other details\n
- * Institution login and registration\n
- * Institution page for entering student data and generating results\n
- * Machine learning algorithms for predicting final semester marks\n
- * Consideration of previous academic performance, attendance, and other relevant factors\n
- * Clear and concise instructions for users\n
- * Ability to export results in an excel/csv file format\n
+ * Malware Analysis: Scans both files and file-less malware to protect your device.\n
+ * AI-Enabled Phishing Detection: Uses advanced AI algorithms to detect phishing attempts.\n
+ * Spam Alert System: Crowd-sources inputs to verify the source of incoming calls, SMS, and emails.\n
+ * Obscenity Blocker: Filters out inappropriate content from messages and websites.\n
+ * Blockchain-Based Password Manager: Safely stores and manages passwords.\n
+ * Real-time Fraud Indicator Flagging: Identifies and verifies calls, SMS, UPI IDs, and URLs in real-time.\n
+ * Cybercrime Reporting: Allows users to report cybercrimes easily.\n
 
 ## User Classes and Characteristics:
 
- * Students: Students will use the app to predict their final semester marks and get an idea of their academic performance.\n
- * Teachers: Teachers will use the app to monitor their students' academic progress and take appropriate measures to improve their performance.\n
- * Administrators: Administrators will manage the app and ensure that it is running smoothly.\n
+ * General Users: Individuals concerned about their online security and privacy.\n
+ * Business Users: Professionals and companies looking to secure their digital assets.\n
+ * Parents: Concerned about their children's online safety.\n
+ * Law Enforcement: Access to cybercrime reports and partnerships with local police.\n 
+ * Cryptocurrency Enthusiasts: Use blockchain-based features for secure transactions.\n 
+ * Frequent Travelers: Require VPN and secure communication abroad.\n 
 
 ## Special Features:
- * Users will also be able to predict whether they will be placed or not.
- * Our web app will not only predict the final semester results, it can also be used to predict whether a student will get placed or not.
- * After submitting the details a mail will be generated from our side about learning resources.
- * Users can also contribute their data.
+ * Blockchain Integration: Utilizes blockchain for added security and trust.
+ * Crowdsourcing for Threat Detection: Harnesses the power of the community to identify threats.
+ * Cybercrime Reporting & Emergency SOS Button: Provides a lifeline during critical situations & Allows users to report crimes easily..
+ * Partnerships: Collaborates with government agencies and law enforcement.
  
 """)
 
