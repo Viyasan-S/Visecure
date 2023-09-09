@@ -25,3 +25,6 @@ if st.button("Scan"):
             st.success("No virus detected!")
     else:
         st.error("Please upload a file!")
+
+c31,c11,c12 = st.columns([3,1,5])
+c11.image("logo.png", width=200)
