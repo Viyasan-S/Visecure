@@ -85,3 +85,7 @@ elif selected == "Crime Reporting":
 
     if st.button("Submit"):
         st.success("Your report has been submitted successfully")
+
+
+c31,c11,c12 = st.columns([3,1,5])
+c11.image("logo.png", width=200)
