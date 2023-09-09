@@ -177,3 +177,5 @@ input:checked + .slider:before {
 unsafe_allow_html=True
 )
 
+c31,c11,c12 = st.columns([3,1,5])
+c11.image("logo.png", width=200)
