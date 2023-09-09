@@ -66,3 +66,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+c31,c11,c12 = st.columns([3,1,5])
+c11.image("logo.png", width=200)
