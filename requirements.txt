@@ -10,7 +10,7 @@ numpy
 google
 google-search
 google-cloud 
-googlesearch-python
+googlesearch-python>=1.0.0,<2.0.0
 whois
 nltk
 soundfile
